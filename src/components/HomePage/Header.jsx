@@ -71,7 +71,7 @@ const Header = ({ currentPhrases }) => {
           alt="Logo Figma"
         />
         <img className='header__img'
-          src='https://res.cloudinary.com/dspgttay0/image/upload/v1713491815/avatar_gfermin_qls7ee.png'
+          src='/avatar.png'
           alt='img'
         />
       </div>
