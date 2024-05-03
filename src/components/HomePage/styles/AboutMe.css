@@ -1,0 +1,65 @@
+.aboutMe {
+  width: 100%;
+  padding: 0em 10em 0em 10em;
+  background-color: var(--bg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutMe__h2 {
+  font-size: 2.3rem;
+  text-align: center;
+  margin: 0em 0 1em 0;
+}
+
+.aboutMe__p {
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.aboutMe__skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 3em;
+}
+
+.aboutMe__skills__div {
+  height: 13em;
+  width: 25%;
+  border: 2px solid var(--bgOpposite);
+  border-radius: 20px;
+  padding: 1em;
+  position: relative;
+}
+
+.aboutMe__skills__div__icon {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: var(--bgOpposite);
+  color: var(--textOpposite);
+  padding: 0.3em;
+  animation: animateIcon 1.5s infinite alternate ease-in-out;
+}
+
+.aboutMe__skills__div__h3 {
+  font-size: 1.1rem;
+  margin-top: 1.2em;
+  text-align: center;
+}
+
+.aboutMe__skills__div__p {
+  height: 80%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  line-height: 1.3;
+}

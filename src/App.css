@@ -1,0 +1,124 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  --textLigth: 300;
+  --textMedium: 500;
+  --textBold: 700;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, p, ul, hr, a {
+  margin: 0;
+}
+
+ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+button, li, a {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.body--ligth {
+  --bg: #ffffff;
+  --bgSecondary: #c5c5c5;
+  --bgOpposite: #1a1a1a;
+  --bgMain: rgba(224, 224, 224, 0.95);
+  --bgReview: rgba(224, 224, 224, 0.301);
+  --text: #1a1a1a;
+  --textSecondary: #c5c5c5;
+  --textOpposite: #ffffff;
+}
+
+.body--dark {
+  --bg: #1a1a1a;
+  --bgSecondary: #000000;
+  --bgOpposite: #ffffff;
+  --bgMain: rgba(44, 44, 44, 0.95);
+  --bgReview: rgba(44, 44, 44, 0.342);
+  --text: #ffffff;
+  --textSecondary: #000000;
+  --textOpposite: #1a1a1a;
+}
+
+.body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  height: 100%;
+}
+
+/* barra de scroll */
+
+/* ::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+::-webkit-scrollbar-button:increment,
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 0;
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--text);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: var(--bg);
+} */
+
+/* selection */
+
+::selection {
+  background-color: var(--text);
+  color: var(--bg);
+}
+
+@keyframes animateIcon {
+  0% {
+    transform: translate(-50%) scale(1);
+    /* Start with regular size */
+  }
+  50% {
+    transform: translate(-50%) scale(1.1);
+    /* Animate to slightly larger size at midpoint */
+  }
+  100% {
+    transform: translate(-50%) scale(1);
+    /* Return to regular size at the end */
+  }
+}

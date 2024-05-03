@@ -1,0 +1,57 @@
+.mainMenu {
+  height: 3em;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 2em;
+  position: fixed;
+  z-index: 99;
+  background-color: var(--bgMain);
+}
+
+.mainMenu__logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.mainMenu__logo {
+  font-size: 1rem;
+}
+
+.mainMenu__ul,
+.mainMenu__control_ul {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.mainMenu__ul {
+  gap: 0em;
+}
+
+.mainMenu__control_span {
+  transition: transform 0.2s;
+}
+
+.mainMenu__control_span:hover {
+  transform: scale(1.15);
+}
+
+.mainMenu__li--icon {
+  display: none;
+}
+
+.mainMenu__li {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: var(--textMedium);
+  height: 100%;
+  padding: 0 0.9em;
+  transition: background-color 0.4s, max-width 0.5s;
+}
+
+.mainMenu__li:hover {
+  background-color: var(--bgOpposite);
+  color: var(--textOpposite);
+}
