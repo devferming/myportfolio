@@ -186,7 +186,7 @@ const Projects = () => {
                     className='projects__card__button'
                     data-translate-en='Deployment'
                     data-translate-es='Despliegue'>
-                    Deployment
+                    Despliegue
                   </button>
                 </div>
 
@@ -252,7 +252,7 @@ const Projects = () => {
                     className='projects__card__button'
                     data-translate-en='Deployment'
                     data-translate-es='Despliegue'>
-                    Deployment
+                    Despliegue
                   </button>
                 </div>
 
@@ -318,7 +318,7 @@ const Projects = () => {
                     className='projects__card__button'
                     data-translate-en='Deployment'
                     data-translate-es='Despliegue'>
-                    Deployment
+                    Despliegue
                   </button>
                 </div>
 
