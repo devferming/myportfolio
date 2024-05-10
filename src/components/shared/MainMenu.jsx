@@ -5,7 +5,7 @@ const MainMenu = ( { setCurrentPhrases } ) => {
 
   const [crrLanguage, setCrrLanguage] = useState('es')
   const [crrMode, setCrrMode] = useState('darkMode')
-
+ 
   const handleLanguage = () => {
     const elementsToTranslate = document.querySelectorAll('[data-translate-en]');
 
@@ -42,18 +42,18 @@ const MainMenu = ( { setCurrentPhrases } ) => {
   }
 
   const handleMode = () => {
+    const headerImg = document.querySelector('#headerImg')
     const body = document.querySelector('.body')
-    /* const navImg = document.querySelector('.nav__img') */
 
     if (crrMode === 'darkMode') {
       body.classList.remove('body--dark')
       body.classList.add('body--ligth')
-      /* navImg.setAttribute('src', './assets/img/logo.svg') */
+      headerImg.setAttribute('src', './avatar2.png')
       setCrrMode('ligthMode')
     } else {
       body.classList.remove('body--ligth')
       body.classList.add('body--dark')
-      /* navImg.setAttribute('src', './assets/img/logo2.svg') */
+      headerImg.setAttribute('src', './avatar.png')
       setCrrMode('darkMode')
     }
 
@@ -111,7 +111,11 @@ const MainMenu = ( { setCurrentPhrases } ) => {
             data-translate-es='Reseñas'>
             Reseñas
           </li>
-          <li className='mainMenu__li' data-translate-en='Contact Me' data-translate-es='Contáctame'>Contáctame</li>
+          <li onClick={() => scrollToSection('contact')}
+            className='mainMenu__li'
+            data-translate-en='Contact Me'
+            data-translate-es='Contáctame'
+          >Contáctame</li>
         </ul>
       </nav>
     </>

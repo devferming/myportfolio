@@ -338,8 +338,6 @@ const Projects = () => {
 
       </div>
 
-
-
     </section>
   )
 }

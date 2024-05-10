@@ -4,6 +4,7 @@ import AboutMe from '../components/HomePage/AboutMe'
 import Technologies from '../components/HomePage/Technologies'
 import Projects from '../components/HomePage/Projects'
 import Reviews from '../components/HomePage/Reviews'
+import Contact from '../components/HomePage/Contact'
 
 const HomePage = ( { currentPhrases }) => {
   return (
@@ -13,6 +14,7 @@ const HomePage = ( { currentPhrases }) => {
       <Technologies />
       <Projects />
       <Reviews />
+      <Contact />
     </>
   )
 }

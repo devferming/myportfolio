@@ -3,6 +3,7 @@ import MainMenu from './components/shared/MainMenu';
 import './App.css'
 import HomePage from './pages/HomePage';
 import { useState } from 'react';
+import Footer from './components/shared/Footer';
 
 
 function App() {
@@ -23,7 +24,6 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage currentPhrases={currentPhrases} />} />
       </Routes>
-      {/* <div>Pie de pagina</div> */}
     </div>
   )
 }

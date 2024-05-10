@@ -27,50 +27,52 @@ const Header = ({ currentPhrases }) => {
 
       <div className='header__img_div'>
         <img className='header__logo header__logo--css'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/2_psiwpd.png"
+          src="/technologies_2_css.png"
           alt="Logo CSS"
         />
         <img className='header__logo header__logo--html'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/1_d52ai0.png"
+          src="/technologies_1_html.png"
           alt="Logo HTML"
         />
         <img className='header__logo header__logo--js'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/3_oelqmk.png"
+          src="/technologies_3_js.png"
           alt="Logo JS"
         />
         <img className='header__logo header__logo--react'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/4_xtugbu.png"
+          src="/technologies_4_react.png"
           alt="Logo React"
         />
         <img className='header__logo header__logo--node'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/5_hlvr2o.png"
+          src="/technologies_5_node.png"
           alt="Logo Node"
         />
         <img className='header__logo header__logo--mysql'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997450/6_y3ldye.png"
+          src="/technologies_7_mysql.png"
           alt="Logo MySql"
         />
         <img className='header__logo header__logo--sequelize'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997451/9_hkmvay.png"
+          src="/technologies_10_sequalize.png"
           alt="Logo Sequelize"
         />
         <img className='header__logo header__logo--postgre'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997451/8_mtkm8w.png"
+          src="/technologies_9_postgre.png"
           alt="Logo PostgreSQL"
         />
         <img className='header__logo header__logo--jest'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997451/11_kqphfp.png"
+          src="/technologies_12_jest.png"
           alt="Logo Jest"
         />
         <img className='header__logo header__logo--github'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997452/14_mxztjb.png"
+          src="/technologies_15_github.png"
           alt="Logo Github"
         />
         <img className='header__logo header__logo--figma'
-          src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997453/17_hr6jv4.png"
+          src="/technologies_18_figma.png"
           alt="Logo Figma"
         />
-        <img className='header__img'
+        <img
+          id='headerImg'
+          className='header__img'
           src='/avatar.png'
           alt='img'
         />

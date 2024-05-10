@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.technologies__video {
+.technologies__background {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -49,7 +49,7 @@
   font-size: 1.1rem;
 }
 
-.technologies__div__li{
+.technologies__div__li {
   text-align: left;
   display: flex;
   gap: 0.5em;
