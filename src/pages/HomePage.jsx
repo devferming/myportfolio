@@ -6,17 +6,24 @@ import Projects from '../components/HomePage/Projects'
 import Reviews from '../components/HomePage/Reviews'
 import Contact from '../components/HomePage/Contact'
 
-const HomePage = ( { currentPhrases }) => {
+const HomePage = ( { currentPhrases, setContactFormClose } ) => {
+
   return (
     <>
-      <Header currentPhrases={currentPhrases} />
+      <Header
+        currentPhrases={currentPhrases}
+        setContactFormClose={setContactFormClose}
+      />
       <AboutMe />
       <Technologies />
       <Projects />
       <Reviews />
-      <Contact />
+      <Contact
+        setContactFormClose={setContactFormClose}
+      />
     </>
   )
+
 }
 
 export default HomePage

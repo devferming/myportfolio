@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './styles/Header.css'
 
-const Header = ({ currentPhrases }) => {
+const Header = ( { currentPhrases, setContactFormClose } ) => {
 
   const [currentPhrase, setCurrentPhrase] = useState(0);
 
@@ -13,6 +13,10 @@ const Header = ({ currentPhrases }) => {
     return () => clearInterval(intervalId);
   }, [currentPhrases]);
 
+  const handleOpenForm = () => {
+    setContactFormClose(false)
+  }
+
   return (
     <header className='header' id='header'>
 
@@ -20,8 +24,21 @@ const Header = ({ currentPhrases }) => {
         <h1 className='header__h1'>Fullstack</h1>
         <h2 className='header__h2' data-translate-en='Web developer' data-translate-es='Desarrollador Web'>Desarrollador Web</h2>
         <div className='header__buttons'>
-          <button className='header__button header__button--firts' data-translate-en='Contac Me' data-translate-es='Contáctame'>Contáctame</button>
-          <button className='header__button' data-translate-en='Download CV' data-translate-es='Descargar CV'>Descargar CV</button>
+          <button
+            onClick={handleOpenForm}
+            className='header__button header__button--firts'
+            data-translate-en='Contac Me'
+            data-translate-es='Contáctame'>
+            Contáctame
+          </button>
+          <a
+            id='downloadCV'
+            href='/CV_ES.pdf' download
+            className='header__button'
+            data-translate-en='Download CV'
+            data-translate-es='Descargar CV'>
+            Descargar CV
+          </a>
         </div>
       </div>
 

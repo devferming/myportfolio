@@ -16,7 +16,7 @@ const MainMenu = ( { setCurrentPhrases } ) => {
         phrase.textContent = translation;
 
       }
-      /* document.getElementById('downloadCV').href = '../cv/cv_en.png'; */
+      document.getElementById('downloadCV').href = '/CV_EN.pdf';
       setCrrLanguage('en')
       setCurrentPhrases([
         'FullStack Domain: From Idea to Launch',
@@ -30,7 +30,7 @@ const MainMenu = ( { setCurrentPhrases } ) => {
         phrase.textContent = translation;
 
       }
-      /* document.getElementById('downloadCV').href = '../cv/cv_es.png'; */
+      document.getElementById('downloadCV').href = '/CV_ES.pdf';
       setCrrLanguage('es')
       setCurrentPhrases([
         'Dominio Full-Stack: De la Idea al Lanzamiento',

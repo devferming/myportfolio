@@ -1,7 +1,12 @@
 import React from 'react'
 import './styles/Contact.css'
 
-const Contact = () => {
+const Contact = ( { setContactFormClose } ) => {
+
+  const handleOpenForm = () => {
+    setContactFormClose(false)
+  }
+
   return (
     <section className='contact' id='contact'>
       <h2 className='contact__h2' data-translate-en='Contact Me' data-translate-es='Contáctame'>Contáctame</h2>
@@ -14,7 +19,7 @@ const Contact = () => {
       <article className='contact__options'>
 
         <a className='contact__option' href="tel:+573145872733">
-          <i class='contact__option__icon icon bx bx-phone'></i>
+          <i className='contact__option__icon icon bx bx-phone'></i>
           <span
             data-translate-en='Call' data-translate-es='LLamada'
             className='contact__option__span'>
@@ -22,23 +27,23 @@ const Contact = () => {
           </span>
         </a>
 
-        <a className='contact__option' href="mailto:devferming@gmail.com">
-          <i class='contact__option__icon icon bx bxl-gmail'></i>
+        <a className='contact__option' href="#" onClick={handleOpenForm}>
+          <i className='contact__option__icon icon bx bxl-gmail'></i>
           <span className='contact__option__span'>Correo</span>
         </a>
 
         <a className='contact__option' href="https://wa.me/+573145872733" target="_blank">
-          <i class='contact__option__icon icon bx bxl-whatsapp'></i>
+          <i className='contact__option__icon icon bx bxl-whatsapp'></i>
           <span className='contact__option__span'>Whatsapp</span>
         </a>
 
         <a className='contact__option' href="https://www.linkedin.com/in/devferming/" target="_blank">
-          <i class='contact__option__icon icon bx bxl-linkedin'></i>
+          <i className='contact__option__icon icon bx bxl-linkedin'></i>
           <span className='contact__option__span'>LinkedIn</span>
         </a>
 
         <a className='contact__option' href="https://github.com/devferming" target="_blank">
-          <i class='contact__option__icon icon bx bxl-github'></i>
+          <i className='contact__option__icon icon bx bxl-github'></i>
           <span className='contact__option__span'>Github</span>
         </a>
 

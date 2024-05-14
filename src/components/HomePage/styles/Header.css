@@ -29,13 +29,17 @@
 }
 
 .header__button {
-  width: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9em;
   height: 3em;
   border-radius: 20px;
   background-color: var(--bg);
   color: var(--text);
   font-size: 1rem;
   font-weight: var(--textBold);
+  padding: 0  0.5em;
   transition:
     background-color 0.4s,
     transform 0.2s,
