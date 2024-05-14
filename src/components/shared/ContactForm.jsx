@@ -15,23 +15,26 @@ const ContactForm = ({ setContactFormClose }) => {
   const handleSendEmail = async (e) => {
     e.preventDefault();
 
-    /* emailjs
-      .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        form.current,
-        { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
-      )
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          setContactFormClose(true)
-          form.current.reset();
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      ); */
+    if (reCaptchaStatus) {
+      emailjs
+        .sendForm(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+          form.current,
+          { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
+        )
+        .then(
+          () => {
+            console.log('SUCCESS!');
+            setContactFormClose(true)
+            form.current.reset();
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    }
+
   };
 
   const handleCloseForm = () => {
