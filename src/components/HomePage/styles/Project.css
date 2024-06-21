@@ -247,7 +247,6 @@
 
   .projects__card {
     flex-direction: column;
-    height: 75vh;
   }
 
   .projects__card__images {
@@ -272,10 +271,6 @@
   .projects__card__button {
     width: 80%;
     margin-bottom: 0.5em;
-  }
-
-  .projects__slider__articles__container {
-    height: 35em;
   }
 
 }
