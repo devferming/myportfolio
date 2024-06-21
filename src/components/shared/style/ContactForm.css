@@ -121,3 +121,13 @@
 .formStatusOff {
   transform: scale(0);
 }
+
+/*********** Media Query ***********/
+
+@media (max-width:950px) {
+
+  .contactForm {
+    width: 90%;
+  }
+
+}

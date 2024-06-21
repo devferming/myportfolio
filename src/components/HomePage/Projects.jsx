@@ -153,15 +153,15 @@ const Projects = () => {
                   Pokédex
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/public/technologies_4_react.png"
+                      src="/technologies_4_react.png"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/public/technologies_3_js.png"
+                      src="/technologies_3_js.png"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/public/technologies_2_css.png"
+                      src="/technologies_2_css.png"
                       alt="Logo CSS"
                     />
                   </span>
@@ -219,15 +219,15 @@ const Projects = () => {
                   Rick and Morty
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/public/technologies_4_react.png"
+                      src="/technologies_4_react.png"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/public/technologies_3_js.png"
+                      src="/technologies_3_js.png"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/public/technologies_2_css.png"
+                      src="/technologies_2_css.png"
                       alt="Logo CSS"
                     />
                   </span>
@@ -288,15 +288,15 @@ const Projects = () => {
                   Galletas de la Fortuna
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/public/technologies_4_react.png"
+                      src="/technologies_4_react.png"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/public/technologies_3_js.png"
+                      src="/technologies_3_js.png"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/public/technologies_2_css.png"
+                      src="/technologies_2_css.png"
                       alt="Logo CSS"
                     />
                   </span>
