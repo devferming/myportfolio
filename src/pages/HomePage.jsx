@@ -6,7 +6,7 @@ import Projects from '../components/HomePage/Projects'
 import Reviews from '../components/HomePage/Reviews'
 import Contact from '../components/HomePage/Contact'
 
-const HomePage = ( { currentPhrases, setContactFormClose } ) => {
+const HomePage = ( { currentPhrases, setContactFormClose, currentReviews } ) => {
 
   return (
     <>
@@ -16,8 +16,12 @@ const HomePage = ( { currentPhrases, setContactFormClose } ) => {
       />
       <AboutMe />
       <Technologies />
+      
       <Projects />
-      <Reviews />
+      
+      <Reviews
+        currentReviews={currentReviews}
+      />
       <Contact
         setContactFormClose={setContactFormClose}
       />

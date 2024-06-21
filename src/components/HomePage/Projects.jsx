@@ -70,27 +70,27 @@ const Projects = () => {
                   Booking App
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/5_hlvr2o.png"
+                      src="/technologies_5_node.png"
                       alt="Logo Node"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997451/9_hkmvay.png"
+                      src="/technologies_10_sequalize.png"
                       alt="Logo Sequelize"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997450/10_searf9.png"
+                      src="/technologies_11_express.png"
                       alt="Logo Express"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/4_xtugbu.png"
+                      src="/technologies_4_react.png"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/3_oelqmk.png"
+                      src="/technologies_3_js.png"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/2_psiwpd.png"
+                      src="/technologies_2_css.png"
                       alt="Logo CSS"
                     />
                   </span>
@@ -153,15 +153,15 @@ const Projects = () => {
                   Pokédex
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/4_xtugbu.png"
+                      src="/public/technologies_4_react.png"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/3_oelqmk.png"
+                      src="/public/technologies_3_js.png"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/2_psiwpd.png"
+                      src="/public/technologies_2_css.png"
                       alt="Logo CSS"
                     />
                   </span>
@@ -219,15 +219,15 @@ const Projects = () => {
                   Rick and Morty
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/4_xtugbu.png"
+                      src="/public/technologies_4_react.png"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/3_oelqmk.png"
+                      src="/public/technologies_3_js.png"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/2_psiwpd.png"
+                      src="/public/technologies_2_css.png"
                       alt="Logo CSS"
                     />
                   </span>
@@ -281,19 +281,22 @@ const Projects = () => {
               </div>
 
               <div className="projects__card__info">
-                <h3 className='projects__card__h3'>
+                <h3 className='projects__card__h3'
+                  data-translate-en='Fortune Cookies'
+                  data-translate-es='Galletas de la Fortuna'
+                >
                   Galletas de la Fortuna
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/4_xtugbu.png"
+                      src="/public/technologies_4_react.png"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/3_oelqmk.png"
+                      src="/public/technologies_3_js.png"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="https://res.cloudinary.com/dspgttay0/image/upload/v1713997449/2_psiwpd.png"
+                      src="/public/technologies_2_css.png"
                       alt="Logo CSS"
                     />
                   </span>

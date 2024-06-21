@@ -27,7 +27,7 @@ const Contact = ( { setContactFormClose } ) => {
           </span>
         </a>
 
-        <a className='contact__option' href="#" onClick={handleOpenForm}>
+        <a className='contact__option' onClick={handleOpenForm}>
           <i className='contact__option__icon icon bx bxl-gmail'></i>
           <span className='contact__option__span'>Correo</span>
         </a>

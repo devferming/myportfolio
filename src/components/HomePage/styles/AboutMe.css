@@ -63,3 +63,22 @@
   align-items: center;
   line-height: 1.3;
 }
+
+/*********** Media Query ***********/
+
+@media (max-width:950px) {
+
+  .aboutMe {
+    padding: 2.5em 3em 2.5em 3em;
+    height: auto;
+  }
+
+  .aboutMe__skills__div {
+    width: 100%;
+  }
+
+  .aboutMe__skills {
+    flex-direction: column;
+  }
+
+}

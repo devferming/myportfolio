@@ -62,3 +62,27 @@
   transition: color 0.4s;
   color: var(--text);
 }
+
+/*********** Media Query ***********/
+
+@media (max-width:950px) {
+
+  .contact {
+    min-height: 100vh;
+    padding: 2.5em 1.5em 2.5em 1.5em;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__h2 {
+    margin-bottom: 0.7em;
+  }
+
+  .contact__options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.3em;
+  }
+
+}
