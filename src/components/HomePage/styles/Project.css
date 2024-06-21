@@ -265,12 +265,16 @@
   }
 
   .projects__card__p {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
   }
 
   .projects__card__button {
     width: 80%;
     margin-bottom: 0.5em;
+  }
+
+  .projects__slider__articles__container {
+    height: 75vh;
   }
 
 }
