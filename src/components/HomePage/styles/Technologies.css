@@ -34,18 +34,18 @@
 }
 
 .technologies__div__icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 50%;
   background-color: var(--bgOpposite);
   color: var(--textOpposite);
   padding: 0.3em;
   animation: animateIcon 1.5s infinite alternate ease-in-out;
-  margin-left: 35%;
 }
 
 .technologies__div__h3 {
   text-align: center;
   margin: 0.5em 0;
+  margin-left: 0.5em;
   font-size: 1.1rem;
 }
 

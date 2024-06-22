@@ -110,16 +110,13 @@ button, li, a {
 
 @keyframes animateIcon {
   0% {
-    transform: translate(-50%) scale(1);
-    /* Start with regular size */
+    transform: scale(1);
   }
   50% {
-    transform: translate(-50%) scale(1.1);
-    /* Animate to slightly larger size at midpoint */
+    transform: scale(1.1);
   }
   100% {
-    transform: translate(-50%) scale(1);
-    /* Return to regular size at the end */
+    transform: scale(1);
   }
 }
 

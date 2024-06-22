@@ -40,9 +40,9 @@
 .aboutMe__skills__div__icon {
   position: absolute;
   top: -10%;
-  left: 50%;
-  transform: translate(-50%);
-  font-size: 2rem;
+  left: 42%;
+  /* transform: translate(-50%); */
+  font-size: 1.5rem;
   border-radius: 50%;
   background-color: var(--bgOpposite);
   color: var(--textOpposite);
