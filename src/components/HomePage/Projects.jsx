@@ -116,7 +116,7 @@ const Projects = () => {
                     className='projects__card__button'
                     data-translate-en='Deployment'
                     data-translate-es='Despliegue'>
-                    Despliegue
+                    Demo
                   </button>
                 </div>
 
