@@ -5,7 +5,7 @@ const Projects = () => {
 
   const [cardSelected, setCardSelected] = useState(0)
 
-  const totalCards = 4
+  const totalCards = 5
 
   const objStyle = {
     transform: `translateX(calc(-${cardSelected}/${totalCards} * 100%))`,
@@ -44,6 +44,85 @@ const Projects = () => {
 
         <div className='projects__slider__articles__container'>
           <div className='projects__slider__articles' style={objStyle}>
+
+            <article
+              className='projects__card'>
+
+              <div className="projects__card__images">
+                <span className="projects__card__images__front">
+                  <img
+                    className="projects__card__img"
+                    src="/project_7_img1.png"
+                    alt="project screen shot"
+                  />
+                </span>
+                <span className="projects__card__images__back">
+                  <img
+                    className="projects__card__img"
+                    src="/project_7_img2.png"
+                    alt="project screen shot"
+                  />
+                </span>
+              </div>
+
+              <div className="projects__card__info">
+                <h3 className='projects__card__h3'
+                  data-translate-en='School System'
+                  data-translate-es='Sistema Escolar'
+                >
+                  Sistema Escolar
+                  <span className='projects__card__icons'>
+                    <img className='projects__icon'
+                      src="/technologies_6_php.png"
+                      alt="Logo Node"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_7_mysql.png"
+                      alt="Logo JS"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_3_js.png"
+                      alt="Logo JS"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_2_css.png"
+                      alt="Logo CSS"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_1_html.png"
+                      alt="Logo CSS"
+                    />
+                  </span>
+
+                </h3>
+
+                <p className='projects__card__p'
+                  data-translate-en='Fullstack project for the La Inmaculada Pedagogical Center, developed in PHP and MySQL. It offers multiple levels of access and functions such as uploading notes, issuing bulletins, virtual classroom, among others. Automating 80% of the work'
+                  data-translate-es='Proyecto fullstack para el Centro Pedagógico La Inmaculada, desarrollado en PHP y MySQL. Ofrece múltiples niveles de acceso y funciones como la carga de notas, emisión de boletines, aula virtual, entre otras. Automatizando el 80% del trabajo'>
+                  Proyecto fullstack para el Centro Pedagógico La Inmaculada, desarrollado en PHP y MySQL. Ofrece múltiples niveles de acceso y funciones como la carga de notas, emisión de boletines, aula virtual, entre otras. Automatizando el 80% del trabajo.
+                </p>
+
+                <div className='projects__card__buttons'>
+                  <button
+                    onClick={() => window.open("https://github.com/devferming/siscpi", "_blank")}
+                    className='projects__card__button'>
+                    Github
+                  </button>
+                  <button
+                    onClick={() => window.open("https://demo1.gfermin.me/modulos/login.php", "_blank")}
+                    className='projects__card__button'
+                    data-translate-en='Deployment'
+                    data-translate-es='Despliegue'>
+                    Despliegue
+                  </button>
+                </div>
+
+              </div>
+
+            </article>
 
             <article
               className='projects__card'>
@@ -126,7 +205,6 @@ const Projects = () => {
               </div>
 
             </article>
-
 
             <article
               className='projects__card'>
