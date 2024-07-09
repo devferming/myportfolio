@@ -5,7 +5,7 @@ const Projects = () => {
 
   const [cardSelected, setCardSelected] = useState(0)
 
-  const totalCards = 5
+  const totalCards = 7
 
   const objStyle = {
     transform: `translateX(calc(-${cardSelected}/${totalCards} * 100%))`,
@@ -113,9 +113,84 @@ const Projects = () => {
                   </button>
                   <button
                     onClick={() => window.open("https://demo1.gfermin.me/modulos/login.php", "_blank")}
-                    className='projects__card__button'
-                    data-translate-en='Deployment'
-                    data-translate-es='Despliegue'>
+                    className='projects__card__button'>
+                    Demo
+                  </button>
+                </div>
+
+              </div>
+
+            </article>
+
+            <article
+              className='projects__card'>
+
+              <div className="projects__card__images">
+                <span className="projects__card__images__front">
+                  <img
+                    className="projects__card__img"
+                    src="/project_2_img1.png"
+                    alt="project screen shot"
+                  />
+                </span>
+                <span className="projects__card__images__back">
+                  <img
+                    className="projects__card__img"
+                    src="/project_2_img2.png"
+                    alt="project screen shot"
+                  />
+                </span>
+              </div>
+
+              <div className="projects__card__info">
+                <h3 className='projects__card__h3'
+                  data-translate-en='ICFES Simulacrum'
+                  data-translate-es='Simulacros ICFES'
+                >
+                  Simulacros ICFES
+                  <span className='projects__card__icons'>
+                    <img className='projects__icon'
+                      src="/technologies_6_php.png"
+                      alt="Logo Node"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_7_mysql.png"
+                      alt="Logo JS"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_3_js.png"
+                      alt="Logo JS"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_2_css.png"
+                      alt="Logo CSS"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_1_html.png"
+                      alt="Logo CSS"
+                    />
+                  </span>
+
+                </h3>
+
+                <p className='projects__card__p'
+                  data-translate-en='Fullstack project for the I.E Escuela Normal Superior de Ocaña, allows ICFES Simulations to be carried out online, with analysis of results, monitoring and statistics in real time.'
+                  data-translate-es='Proyecto fullstack para la I.E Escuela Normal Superior de Ocaña, permite realizar Simulacros ICFES de forma online, con análisis de resultados, seguimiento y estadística en tiempo real.'>
+                  Proyecto fullstack para la I.E Escuela Normal Superior de Ocaña, permite realizar Simulacros ICFES de forma online, con análisis de resultados, seguimiento y estadística en tiempo real.
+                </p>
+
+                <div className='projects__card__buttons'>
+                  <button
+                    onClick={() => window.open("https://github.com/devferming/simulicfes", "_blank")}
+                    className='projects__card__button'>
+                    Github
+                  </button>
+                  <button
+                    onClick={() => window.open("https://demo2.gfermin.me/login.php", "_blank")}
+                    className='projects__card__button'>
                     Demo
                   </button>
                 </div>
@@ -184,17 +259,99 @@ const Projects = () => {
 
                 <div className='projects__card__buttons'>
                   <button
-                    onClick={() => window.open("https://github.com/gfermin360/booking-frontend", "_blank")}
+                    onClick={() => window.open("https://github.com/devferming/booking-frontend", "_blank")}
                     className='projects__card__button'>
                     Frontend
                   </button>
                   <button
-                    onClick={() => window.open("https://github.com/gfermin360/booking-backend", "_blank")}
+                    onClick={() => window.open("https://github.com/devferming/booking-backend", "_blank")}
                     className='projects__card__button'>
                     Backend
                   </button>
                   <button
                     onClick={() => window.open("https://booking-by-gfermin.netlify.app", "_blank")}
+                    className='projects__card__button'
+                    data-translate-en='Deployment'
+                    data-translate-es='Despliegue'>
+                    Despliegue
+                  </button>
+                </div>
+
+              </div>
+
+            </article>
+
+            <article
+              className='projects__card'>
+
+              <div className="projects__card__images">
+                <span className="projects__card__images__front">
+                  <img
+                    className="projects__card__img"
+                    src="/project_3_img1.png"
+                    alt="project screen shot"
+                  />
+                </span>
+                <span className="projects__card__images__back">
+                  <img
+                    className="projects__card__img"
+                    src="/project_3_img2.png"
+                    alt="project screen shot"
+                  />
+                </span>
+              </div>
+
+              <div className="projects__card__info">
+                <h3 className='projects__card__h3'>
+                  User CRUD
+                  <span className='projects__card__icons'>
+                    <img className='projects__icon'
+                      src="/technologies_5_node.png"
+                      alt="Logo Node"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_10_sequalize.png"
+                      alt="Logo Sequelize"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_11_express.png"
+                      alt="Logo Express"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_4_react.png"
+                      alt="Logo React"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_3_js.png"
+                      alt="Logo JS"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_2_css.png"
+                      alt="Logo CSS"
+                    />
+                  </span>
+
+                </h3>
+
+                <p className='projects__card__p'
+                  data-translate-en='A fullstack project with a frontend developed in React and its own API, which allows Create, Query, Update and Delete users in a PostgreSQL database.'
+                  data-translate-es='Un proyecto fullstack con un frontend desarrollado en React y una API propia, que permite Crear, Consultar, Actualizar y Eliminar usuarios en una base de datos PostgreSQL.'>
+                  Un proyecto fullstack con un frontend desarrollado en React y una API propia, que permite Crear, Consultar, Actualizar y Eliminar usuarios en una base de datos PostgreSQL.
+                </p>
+
+                <div className='projects__card__buttons'>
+                  <button
+                    onClick={() => window.open("https://github.com/devferming/user-crud", "_blank")}
+                    className='projects__card__button'>
+                    Frontend
+                  </button>
+                  <button
+                    onClick={() => window.open("https://github.com/devferming/user-crud-api", "_blank")}
+                    className='projects__card__button'>
+                    Backend
+                  </button>
+                  <button
+                    onClick={() => window.open("https://users-crud-by-gfermin.netlify.app/", "_blank")}
                     className='projects__card__button'
                     data-translate-en='Deployment'
                     data-translate-es='Despliegue'>
@@ -254,7 +411,7 @@ const Projects = () => {
 
                 <div className='projects__card__buttons'>
                   <button
-                    onClick={() => window.open("https://github.com/gfermin360/pokedex", "_blank")}
+                    onClick={() => window.open("https://github.com/devferming/pokedex", "_blank")}
                     className='projects__card__button'>
                     Frontend
                   </button>
@@ -320,7 +477,7 @@ const Projects = () => {
 
                 <div className='projects__card__buttons'>
                   <button
-                    onClick={() => window.open("https://github.com/gfermin360/rickandmorty", "_blank")}
+                    onClick={() => window.open("https://github.com/devferming/rickandmorty", "_blank")}
                     className='projects__card__button'>
                     Frontend
                   </button>
@@ -389,7 +546,7 @@ const Projects = () => {
 
                 <div className='projects__card__buttons'>
                   <button
-                    onClick={() => window.open("https://github.com/gfermin360/fortunecookie", "_blank")}
+                    onClick={() => window.open("https://github.com/devferming/fortunecookie", "_blank")}
                     className='projects__card__button'>
                     Frontend
                   </button>

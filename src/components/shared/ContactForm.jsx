@@ -138,6 +138,7 @@ const ContactForm = ({ setContactFormClose, contacFormStatus }) => {
         <a className='contactForm__a' href='https://github.com/devferming' target='_blank'>
           <i className='contactForm__a__icon icon bx bxl-github'></i>
         </a>
+        <p> / devferming@gmail.com</p>
       </div>
 
     </form>
