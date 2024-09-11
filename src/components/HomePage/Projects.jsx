@@ -5,7 +5,7 @@ const Projects = () => {
 
   const [cardSelected, setCardSelected] = useState(0)
 
-  const totalCards = 7
+  const totalCards = 9
 
   const objStyle = {
     transform: `translateX(calc(-${cardSelected}/${totalCards} * 100%))`,
@@ -52,14 +52,14 @@ const Projects = () => {
                 <span className="projects__card__images__front">
                   <img
                     className="projects__card__img"
-                    src="/project_7_img1.png"
+                    src="/project_9_img1.webp"
                     alt="project screen shot"
                   />
                 </span>
                 <span className="projects__card__images__back">
                   <img
                     className="projects__card__img"
-                    src="/project_7_img2.png"
+                    src="/project_9_img2.webp"
                     alt="project screen shot"
                   />
                 </span>
@@ -67,32 +67,191 @@ const Projects = () => {
 
               <div className="projects__card__info">
                 <h3 className='projects__card__h3'
-                  data-translate-en='School System'
-                  data-translate-es='Sistema Escolar'
                 >
-                  Sistema Escolar
+                  <span
+                    data-translate-en='Virtual Catalog'
+                    data-translate-es='Catálogo Virtual'>
+                    Catálogo Virtual
+                  </span>
+
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/technologies_6_php.png"
-                      alt="Logo Node"
+                      src="/technologies_4_react.webp"
+                      alt="Logo React"
                     />
 
                     <img className='projects__icon'
-                      src="/technologies_7_mysql.png"
-                      alt="Logo JS"
-                    />
-
-                    <img className='projects__icon'
-                      src="/technologies_3_js.png"
+                      src="/technologies_3_js.webp"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/technologies_2_css.png"
+                      src="/technologies_2_css.webp"
                       alt="Logo CSS"
                     />
 
                     <img className='projects__icon'
-                      src="/technologies_1_html.png"
+                      src="/technologies_1_html.webp"
+                      alt="Logo CSS"
+                    />
+                  </span>
+
+                </h3>
+
+                <p className='projects__card__p'
+                  data-translate-en='Virtual catalog with menu of categories and subcategories, products are shown on individual cards, with buttons to quote or obtain more information, providing a fluid and complete browsing experience.'
+                  data-translate-es='Catálogo virtual con menú de categorías y subcategorías, los productos se muestran en cards individuales, con botones para cotizar u obtener mas información, brindando una experiencia de navegación fluida y completa.'>
+                  Catálogo virtual con menú de categorías y subcategorías, los productos se muestran en cards individuales, con botones para cotizar u obtener mas información, brindando una experiencia de navegación fluida y completa.
+                </p>
+
+                <div className='projects__card__buttons'>
+                  <button
+                    onClick={() => window.open("https://github.com/devferming/alumiWork", "_blank")}
+                    className='projects__card__button'>
+                    Frontend
+                  </button>
+                  <button
+                    onClick={() => window.open("https://alumiwork.shop", "_blank")}
+                    className='projects__card__button'
+                    data-translate-en='Deployment'
+                    data-translate-es='Despliegue'>
+                    Despliegue
+                  </button>
+
+                </div>
+
+              </div>
+
+            </article>
+
+
+            <article
+              className='projects__card'>
+
+              <div className="projects__card__images">
+                <span className="projects__card__images__front">
+                  <img
+                    className="projects__card__img"
+                    src="/project_8_img1.webp"
+                    alt="project screen shot"
+                  />
+                </span>
+                <span className="projects__card__images__back">
+                  <img
+                    className="projects__card__img"
+                    src="/project_8_img2.webp"
+                    alt="project screen shot"
+                  />
+                </span>
+              </div>
+
+              <div className="projects__card__info">
+                <h3 className='projects__card__h3'>
+                  <span
+                    data-translate-en='Wedding Invitation'
+                    data-translate-es='Invitación a Boda'
+                  >
+                    Invitación a Boda
+                  </span>
+
+                  <span className='projects__card__icons'>
+                    <img className='projects__icon'
+                      src="/technologies_4_react.webp"
+                      alt="Logo React"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_3_js.webp"
+                      alt="Logo JS"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_2_css.webp"
+                      alt="Logo CSS"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_1_html.webp"
+                      alt="Logo CSS"
+                    />
+                  </span>
+
+                </h3>
+
+                <p className='projects__card__p'
+                  data-translate-en="A website that uses routes to receive the guest's ID and display their personalized invitation. With navigation menu, photo gallery and integration with Pigeon Maps to show the location of the event."
+                  data-translate-es='Una web que utiliza rutas para recibir el ID del invitado y mostrar su invitación personalizada. Con menú de navegación, galería de fotos e integración con Pigeon Maps para mostrar la ubicación, del evento'>
+                  Una web que utiliza rutas para recibir el ID del invitado y mostrar su invitación personalizada. Con menú de navegación, galería de fotos e integración con Pigeon Maps para mostrar la ubicación, del evento.
+                </p>
+
+                <div className='projects__card__buttons'>
+                  <button
+                    onClick={() => window.open("https://github.com/devferming/myWedding", "_blank")}
+                    className='projects__card__button'>
+                    Frontend
+                  </button>
+                  <button
+                    onClick={() => window.open("https://zenithyfermin.netlify.app/guest/1", "_blank")}
+                    className='projects__card__button'
+                    data-translate-en='Deployment'
+                    data-translate-es='Despliegue'>
+                    Despliegue
+                  </button>
+
+                </div>
+
+              </div>
+
+            </article>
+
+            <article
+              className='projects__card'>
+
+              <div className="projects__card__images">
+                <span className="projects__card__images__front">
+                  <img
+                    className="projects__card__img"
+                    src="/project_7_img1.webp"
+                    alt="project screen shot"
+                  />
+                </span>
+                <span className="projects__card__images__back">
+                  <img
+                    className="projects__card__img"
+                    src="/project_7_img2.webp"
+                    alt="project screen shot"
+                  />
+                </span>
+              </div>
+
+              <div className="projects__card__info">
+                <h3 className='projects__card__h3'>
+                  <span
+                    data-translate-en='School System'
+                    data-translate-es='Sistema Escolar'
+                  >
+                    Sistema Escolar
+                  </span>
+                  <span className='projects__card__icons'>
+                    <img className='projects__icon'
+                      src="/technologies_6_php.webp"
+                      alt="Logo Node"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_7_mysql.webp"
+                      alt="Logo JS"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_3_js.webp"
+                      alt="Logo JS"
+                    />
+                    <img className='projects__icon'
+                      src="/technologies_2_css.webp"
+                      alt="Logo CSS"
+                    />
+
+                    <img className='projects__icon'
+                      src="/technologies_1_html.webp"
                       alt="Logo CSS"
                     />
                   </span>
@@ -129,47 +288,49 @@ const Projects = () => {
                 <span className="projects__card__images__front">
                   <img
                     className="projects__card__img"
-                    src="/project_2_img1.png"
+                    src="/project_2_img1.webp"
                     alt="project screen shot"
                   />
                 </span>
                 <span className="projects__card__images__back">
                   <img
                     className="projects__card__img"
-                    src="/project_2_img2.png"
+                    src="/project_2_img2.webp"
                     alt="project screen shot"
                   />
                 </span>
               </div>
 
               <div className="projects__card__info">
-                <h3 className='projects__card__h3'
-                  data-translate-en='ICFES Simulacrum'
-                  data-translate-es='Simulacros ICFES'
-                >
-                  Simulacros ICFES
+                <h3 className='projects__card__h3'>
+                  <span
+                    data-translate-en='ICFES Simulacrum'
+                    data-translate-es='Simulacros ICFES'
+                  >
+                    Simulacros ICFES
+                  </span>
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/technologies_6_php.png"
+                      src="/technologies_6_php.webp"
                       alt="Logo Node"
                     />
 
                     <img className='projects__icon'
-                      src="/technologies_7_mysql.png"
+                      src="/technologies_7_mysql.webp"
                       alt="Logo JS"
                     />
 
                     <img className='projects__icon'
-                      src="/technologies_3_js.png"
+                      src="/technologies_3_js.webp"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/technologies_2_css.png"
+                      src="/technologies_2_css.webp"
                       alt="Logo CSS"
                     />
 
                     <img className='projects__icon'
-                      src="/technologies_1_html.png"
+                      src="/technologies_1_html.webp"
                       alt="Logo CSS"
                     />
                   </span>
@@ -206,14 +367,14 @@ const Projects = () => {
                 <span className="projects__card__images__front">
                   <img
                     className="projects__card__img"
-                    src="/project_1_img1.png"
+                    src="/project_1_img1.webp"
                     alt="project screen shot"
                   />
                 </span>
                 <span className="projects__card__images__back">
                   <img
                     className="projects__card__img"
-                    src="/project_1_img2.png"
+                    src="/project_1_img2.webp"
                     alt="project screen shot"
                   />
                 </span>
@@ -224,27 +385,27 @@ const Projects = () => {
                   Booking App
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/technologies_5_node.png"
+                      src="/technologies_5_node.webp"
                       alt="Logo Node"
                     />
                     <img className='projects__icon'
-                      src="/technologies_10_sequalize.png"
+                      src="/technologies_10_sequalize.webp"
                       alt="Logo Sequelize"
                     />
                     <img className='projects__icon'
-                      src="/technologies_11_express.png"
+                      src="/technologies_11_express.webp"
                       alt="Logo Express"
                     />
                     <img className='projects__icon'
-                      src="/technologies_4_react.png"
+                      src="/technologies_4_react.webp"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/technologies_3_js.png"
+                      src="/technologies_3_js.webp"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/technologies_2_css.png"
+                      src="/technologies_2_css.webp"
                       alt="Logo CSS"
                     />
                   </span>
@@ -288,14 +449,14 @@ const Projects = () => {
                 <span className="projects__card__images__front">
                   <img
                     className="projects__card__img"
-                    src="/project_3_img1.png"
+                    src="/project_3_img1.webp"
                     alt="project screen shot"
                   />
                 </span>
                 <span className="projects__card__images__back">
                   <img
                     className="projects__card__img"
-                    src="/project_3_img2.png"
+                    src="/project_3_img2.webp"
                     alt="project screen shot"
                   />
                 </span>
@@ -306,27 +467,27 @@ const Projects = () => {
                   User CRUD
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/technologies_5_node.png"
+                      src="/technologies_5_node.webp"
                       alt="Logo Node"
                     />
                     <img className='projects__icon'
-                      src="/technologies_10_sequalize.png"
+                      src="/technologies_10_sequalize.webp"
                       alt="Logo Sequelize"
                     />
                     <img className='projects__icon'
-                      src="/technologies_11_express.png"
+                      src="/technologies_11_express.webp"
                       alt="Logo Express"
                     />
                     <img className='projects__icon'
-                      src="/technologies_4_react.png"
+                      src="/technologies_4_react.webp"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/technologies_3_js.png"
+                      src="/technologies_3_js.webp"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/technologies_2_css.png"
+                      src="/technologies_2_css.webp"
                       alt="Logo CSS"
                     />
                   </span>
@@ -370,14 +531,14 @@ const Projects = () => {
                 <span className="projects__card__images__front">
                   <img
                     className="projects__card__img"
-                    src="/project_4_img1.png"
+                    src="/project_4_img1.webp"
                     alt="project screen shot"
                   />
                 </span>
                 <span className="projects__card__images__back">
                   <img
                     className="projects__card__img"
-                    src="/project_4_img2.png"
+                    src="/project_4_img2.webp"
                     alt="project screen shot"
                   />
                 </span>
@@ -388,15 +549,15 @@ const Projects = () => {
                   Pokédex
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/technologies_4_react.png"
+                      src="/technologies_4_react.webp"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/technologies_3_js.png"
+                      src="/technologies_3_js.webp"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/technologies_2_css.png"
+                      src="/technologies_2_css.webp"
                       alt="Logo CSS"
                     />
                   </span>
@@ -436,14 +597,14 @@ const Projects = () => {
                 <span className="projects__card__images__front">
                   <img
                     className="projects__card__img"
-                    src="/project_5_img1.png"
+                    src="/project_5_img1.webp"
                     alt="project screen shot"
                   />
                 </span>
                 <span className="projects__card__images__back">
                   <img
                     className="projects__card__img"
-                    src="/project_5_img2.png"
+                    src="/project_5_img2.webp"
                     alt="project screen shot"
                   />
                 </span>
@@ -454,15 +615,15 @@ const Projects = () => {
                   Rick and Morty
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/technologies_4_react.png"
+                      src="/technologies_4_react.webp"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/technologies_3_js.png"
+                      src="/technologies_3_js.webp"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/technologies_2_css.png"
+                      src="/technologies_2_css.webp"
                       alt="Logo CSS"
                     />
                   </span>
@@ -502,36 +663,38 @@ const Projects = () => {
                 <span className="projects__card__images__front">
                   <img
                     className="projects__card__img"
-                    src="/project_6_img1.png"
+                    src="/project_6_img1.webp"
                     alt="project screen shot"
                   />
                 </span>
                 <span className="projects__card__images__back">
                   <img
                     className="projects__card__img"
-                    src="/project_6_img2.png"
+                    src="/project_6_img2.webp"
                     alt="project screen shot"
                   />
                 </span>
               </div>
 
               <div className="projects__card__info">
-                <h3 className='projects__card__h3'
-                  data-translate-en='Fortune Cookies'
-                  data-translate-es='Galletas de la Fortuna'
-                >
-                  Galletas de la Fortuna
+                <h3 className='projects__card__h3'>
+                  <span
+                    data-translate-en='Fortune Cookies'
+                    data-translate-es='Galletas de la Fortuna'
+                  >
+                    Galletas de la Fortuna
+                  </span>
                   <span className='projects__card__icons'>
                     <img className='projects__icon'
-                      src="/technologies_4_react.png"
+                      src="/technologies_4_react.webp"
                       alt="Logo React"
                     />
                     <img className='projects__icon'
-                      src="/technologies_3_js.png"
+                      src="/technologies_3_js.webp"
                       alt="Logo JS"
                     />
                     <img className='projects__icon'
-                      src="/technologies_2_css.png"
+                      src="/technologies_2_css.webp"
                       alt="Logo CSS"
                     />
                   </span>

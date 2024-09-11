@@ -27,25 +27,25 @@ function App() {
 
   const [currentReviews, setCurrentReviews] = useState([
     {
-      imgSrc: "/reviews_img1.jpg",
-      name: "María Joaquina",
+      imgSrc: "/reviews_img1.webp",
+      name: "Alicia Castro",
       position: "Rectora Centro Pedagógico La Inmaculada",
       comment: "Fermin es un profesional altamente comprometido y capacitado. Gracias al sistema web escolar que desarrolló para nosotros, logramos automatizar una gran parte de nuestros procesos administrativos, y reducir las cargas laborales de todo nuestro personal."
     },
     {
-      imgSrc: "/reviews_img2.jpg",
-      name: "Harol Cervantes",
-      position: "Rectora Centro Pedagógico La Inmaculada",
-      comment: "Fermín nos entrego una hermosa pagina web, que supero por mucho nuestras espectativas e ideas iniciales, nos agradó su paciencia y disposición de explicarnos cada detalle, sobre los pros y contras de cada idea, fue un excelente trabajo."
+      imgSrc: "/reviews_img2.webp",
+      name: "Lemis Camargo",
+      position: "Coordinador de Simulacros ICFES",
+      comment: "Fermín desarrolló un sistema que superó mi idea original. No solo permite realizar las pruebas en línea, sino también generar reportes con todas las estadísticas necesarias para analizar y optimizar el desempeño tanto de los estudiantes como de los docentes."
     },
     {
-      imgSrc: "/reviews_img3.jpg",
+      imgSrc: "/reviews_img3.webp",
       name: "Luiggi Parra",
       position: "CEO AlumiWork",
-      comment: "Fermín nos entregó una web que recibe al potencial cliente, y le entrega toda la información necesaria para comprar, lo que más nos gustó fue el chat automatizado con I.A. Ahora todo funciona en piloto automático."
+      comment: "Fermín nos proporcionó un catálogo que recibe al cliente potencial y le brinda toda la información necesaria para realizar su compra. Gracias a esta herramienta, estamos captando de manera más efectiva la atención de nuestros clientes."
     },
     {
-      imgSrc: "/reviews_img4.jpg",
+      imgSrc: "/reviews_img4.webp",
       name: "Andréa Jímenez",
       position: "Desarrollador Fullstack",
       comment:"Fermín posee unas habilidades de liderazgo y empatía que transmite seguridad al resto del equipo, es un excelente desarrollador que siemprte está dispuesto a colaborar y ayudar.",
